@@ -1,4 +1,4 @@
-package com.atguigu.crud.model;
+package com.atguigu.crud.bean;
 
 import java.util.ArrayList;
 import java.util.List;

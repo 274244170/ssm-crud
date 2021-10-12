@@ -3,8 +3,8 @@ package com.atguigu.crud.dao;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
-import com.atguigu.crud.model.Department;
-import com.atguigu.crud.model.DepartmentExample;
+import com.atguigu.crud.bean.Department;
+import com.atguigu.crud.bean.DepartmentExample;
 
 public interface DepartmentMapper {
     long countByExample(DepartmentExample example);

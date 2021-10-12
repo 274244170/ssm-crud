@@ -3,7 +3,7 @@ package com.atguigu.crud.service;
 import java.util.List;
 
 import com.atguigu.crud.dto.EmployeeDto;
-import com.atguigu.crud.model.Employee;
+import com.atguigu.crud.bean.Employee;
 import com.atguigu.crud.vo.EmployeeVo;
 import com.github.pagehelper.Page;
 

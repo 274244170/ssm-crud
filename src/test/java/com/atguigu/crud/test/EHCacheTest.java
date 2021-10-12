@@ -1,12 +1,13 @@
 package com.atguigu.crud.test;
 
+import com.atguigu.crud.bean.Person;
 import org.junit.Test;
 
 import net.sf.ehcache.Cache;
 import net.sf.ehcache.CacheManager;
 import net.sf.ehcache.Element;
 
-public class TestEHCache {
+public class EHCacheTest {
     
     @Test
     public void test() {

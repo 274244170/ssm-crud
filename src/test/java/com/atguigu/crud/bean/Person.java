@@ -1,4 +1,4 @@
-package com.atguigu.crud.test;
+package com.atguigu.crud.bean;
 
 public class Person
 {

@@ -6,7 +6,7 @@ import com.atguigu.crud.interceptor.InterceptorJDKProxy;
 import com.atguigu.crud.service.HelloService;
 import com.atguigu.crud.service.impl.HelloServiceImpl;
 
-public class TestJDKDynamicProxy
+public class JdkDynamicProxyTest
 {
 
 	@Test

@@ -7,9 +7,9 @@ import org.springframework.stereotype.Service;
 
 import com.atguigu.crud.dao.EmployeeMapper;
 import com.atguigu.crud.dto.EmployeeDto;
-import com.atguigu.crud.model.Employee;
-import com.atguigu.crud.model.EmployeeExample;
-import com.atguigu.crud.model.EmployeeExample.Criteria;
+import com.atguigu.crud.bean.Employee;
+import com.atguigu.crud.bean.EmployeeExample;
+import com.atguigu.crud.bean.EmployeeExample.Criteria;
 import com.atguigu.crud.service.EmployeeService;
 import com.atguigu.crud.vo.EmployeeVo;
 import com.github.pagehelper.Page;

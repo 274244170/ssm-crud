@@ -5,8 +5,8 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 import com.atguigu.crud.dto.EmployeeDto;
-import com.atguigu.crud.model.Employee;
-import com.atguigu.crud.model.EmployeeExample;
+import com.atguigu.crud.bean.Employee;
+import com.atguigu.crud.bean.EmployeeExample;
 import com.atguigu.crud.vo.EmployeeVo;
 import com.github.pagehelper.Page;
 

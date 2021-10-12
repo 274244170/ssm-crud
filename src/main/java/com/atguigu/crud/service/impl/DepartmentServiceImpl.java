@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.atguigu.crud.dao.DepartmentMapper;
-import com.atguigu.crud.model.Department;
+import com.atguigu.crud.bean.Department;
 import com.atguigu.crud.service.DepartmentService;
 
 @Service

@@ -1,4 +1,4 @@
-package com.atguigu.crud.model;
+package com.atguigu.crud.bean;
 
 public class Department {
     private Integer deptId;

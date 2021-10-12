@@ -109,7 +109,7 @@
 	    </if>
 	    <include refid="WithDept_Column_List" />
 		FROM tbl_emp e
-		left join tbl_dept d on e.`dept_id`=d.`dept_id`
+		left join tbl_dept d on e.dept_id=d.dept_id
 	    <if test="_parameter != null">
 	      <include refid="Example_Where_Clause" />
 	    </if>
@@ -122,7 +122,7 @@
    	select 
     <include refid="WithDept_Column_List" />
     FROM tbl_emp e
-	left join tbl_dept d on e.`dept_id`=d.`dept_id`
+	left join tbl_dept d on e.dept_id=d.dept_id
     where emp_id = #{empId,jdbcType=INTEGER}
   </select>
   
@@ -278,7 +278,7 @@
   	select
 	    <include refid="WithDept_Column_List" />
 		from tbl_emp e,tbl_dept d
-		where e.`dept_id`=d.`dept_id`
+		where e.dept_id=d.dept_id
 	    <if test="empName != null and empName != ''">
             and e.emp_name like concat('%',concat(#{empName,jdbcType=VARCHAR},'%'))
         </if>

@@ -18,7 +18,7 @@
 	<!--=================== 数据源，事务控制，xxx ================-->
 	<context:property-placeholder location="classpath:jdbc.properties" />
 	
-	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
 		<property name="driverClass" value="${jdbc.driverClass}"></property>
 		<property name="jdbcUrl" value="${jdbc.jdbcUrl}"></property>
 		<property name="user" value="${jdbc.user}"></property>

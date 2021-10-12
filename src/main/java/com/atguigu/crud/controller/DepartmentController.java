@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.atguigu.crud.dto.Msg;
 import com.atguigu.crud.enums.ResultCode;
-import com.atguigu.crud.model.Department;
+import com.atguigu.crud.bean.Department;
 import com.atguigu.crud.service.DepartmentService;
 
 /**
