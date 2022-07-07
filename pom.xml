@@ -8,7 +8,7 @@
 
 	<!-- 用来设置版本号 -->
 	<properties>
-		<srping.version>4.3.7.RELEASE</srping.version>
+		<srping.version>5.2.21.RELEASE</srping.version>
 	</properties>
 
 	<!--引入项目依赖的jar包 -->
